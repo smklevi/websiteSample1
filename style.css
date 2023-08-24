@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
 }
-
+/*Navbar*/
 #logo {
     width: 60px;
     height: 100%;
@@ -34,4 +34,24 @@ a {
 
 a:hover {
     background-color: chartreuse;
+}
+
+/*Header*/
+
+.header_bg {
+    background-image: url(headerbg.jpeg);
+    width: 100%;
+    height: 350px
+}
+
+.header_h1 {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
 }
