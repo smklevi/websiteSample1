@@ -4,6 +4,34 @@
     border: 0;
 }
 
-img#logo {
-    size: 10px;
+#logo {
+    width: 60px;
+    height: 100%;
+    padding-left: 25px;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(222, 184, 135, 0.7);
+}
+
+ul {
+    list-style-type: none ;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+
+a:hover {
+    background-color: chartreuse;
 }
